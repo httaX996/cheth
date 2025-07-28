@@ -207,7 +207,7 @@ const MovieScreen: React.FC = () => {
 
         return () => {
             if (JSON.parse(localStorage.getItem('adDisclaimerDisabled') || 'false')) {
-                setIsContinuePressed(true);   
+                setIsContinuePressed(true);
             }
             else {
                 setIsContinuePressed(false);
@@ -260,8 +260,10 @@ const MovieScreen: React.FC = () => {
                                             border: 'none',
                                             display: { xs: 'block', md: 'flex', lg: 'flex' },
                                             justifyContent: { xs: 'center', lg: 'space-between' },
-                                            width: {xs: '100%', md: '100%', lg: '100%'},
-                                            overflowX: 'scroll',
+                                            width: { xs: '100%', md: '100%', lg: '100%' },
+                                            overflow: 'hidden',
+                                            scrollbarWidth: 'none',
+                                            msOverflowStyle: 'none',
                                         }}>
                                             <Tabs sx={{
                                                 opacity: !lightsOffClicked ? 1 : 0,

@@ -149,12 +149,16 @@ const MoviePlayer: React.FC<PlayerProps> = ({ id, serverGroup, note }) => {
                             border: 'none',
                             borderRadius: 12,
                             marginTop: -10,
-                            opacity: isIframeLoaded ? 1 : 0
+                            opacity: isIframeLoaded ? 1 : 0,
+                            overflow: 'hidden',
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none',
                         }}
                         src={src}
                         allow="accelerometer; autoplay; encrypted-media; fullscreen; picture-in-picture; gyroscope; web-share"
                         onLoad={() => { setIsIframeLoaded(true) }}
-                        onError={() => { setError(true) }} />
+                        onError={() => { setError(true) }}
+                    />
                 ) : (
                     <iframe
                         key={id}
@@ -165,13 +169,17 @@ const MoviePlayer: React.FC<PlayerProps> = ({ id, serverGroup, note }) => {
                             border: 'none',
                             borderRadius: 12,
                             marginTop: -10,
-                            opacity: isIframeLoaded ? 1 : 0
+                            opacity: isIframeLoaded ? 1 : 0,
+                            overflow: 'hidden',
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none',
                         }}
                         src={src}
                         sandbox="allow-scripts allow-same-origin allow-presentation allow-fullscreen allow-forms"
                         allow="accelerometer; autoplay; encrypted-media; fullscreen; picture-in-picture; gyroscope; web-share"
                         onLoad={() => { setIsIframeLoaded(true) }}
-                        onError={() => { setError(true) }} />
+                        onError={() => { setError(true) }}
+                    />
                 )}
             </Box>
             {note && (
