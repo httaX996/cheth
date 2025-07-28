@@ -151,7 +151,10 @@ const TvPlayer: React.FC<PlayerProps> = ({ id, serverGroup, season, episode, not
                             border: 'none',
                             borderRadius: 12,
                             marginTop: -10,
-                            opacity: isIframeLoaded ? 1 : 0
+                            opacity: isIframeLoaded ? 1 : 0,
+                            overflow: 'hidden',
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none',
                         }}
                         src={src}
                         allow="accelerometer; autoplay; encrypted-media; fullscreen; picture-in-picture; gyroscope; web-share"
@@ -167,7 +170,10 @@ const TvPlayer: React.FC<PlayerProps> = ({ id, serverGroup, season, episode, not
                             border: 'none',
                             borderRadius: 12,
                             marginTop: -10,
-                            opacity: isIframeLoaded ? 1 : 0
+                            opacity: isIframeLoaded ? 1 : 0,
+                            overflow: 'hidden',
+                            scrollbarWidth: 'none',
+                            msOverflowStyle: 'none',
                         }}
                         src={src}
                         sandbox="allow-scripts allow-same-origin allow-presentation allow-fullscreen allow-forms"

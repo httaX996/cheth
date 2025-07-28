@@ -308,7 +308,10 @@ const TvScreen: React.FC = () => {
                                     <Box sx={{
                                         borderBottom: 1,
                                         display: { xs: 'block', md: 'flex', lg: 'flex' },
-                                        justifyContent: { xs: 'center', lg: 'space-between' }
+                                        justifyContent: { xs: 'center', lg: 'space-between' },
+                                        overflow: 'hidden',
+                                        scrollbarWidth: 'none',
+                                        msOverflowStyle: 'none',
                                     }}>
                                         <Tabs
                                             sx={{
