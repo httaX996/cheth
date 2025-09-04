@@ -62,7 +62,7 @@ const AdDisclaimer: React.FC<props> = ({ setIsContinuePressed }) => {
                             color: 'white',
                             opacity: .9
                         }}>
-                            <span style={{ color: '#a2ff00' }}>Ez Streaming</span> is an ad-free streaming platform, but some content providers
+                            <span style={{ color: '#a2ff00' }}>CK CineMAX</span> is an ad-free streaming platform, but some content providers
                             (non-premium ones) may have advertisements within their content
                             which is beyond our control.
                         </Typography>
