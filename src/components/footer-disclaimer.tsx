@@ -49,13 +49,12 @@ const FooterDisclaimer: React.FC = () => {
 
                             <Box sx={{ mt: { xs: 1, md: 2.5, lg: 1.5 } }}>
                                 <Grid container spacing={0.5}>
-                                    {[{ name: "Gallery", path: '/' },
-                                    { name: "Watch List", path: '/watch-list' },
+                                    {[{ name: "Home", path: '/' },
+                                    { name: "Search", path: '/search' },
                                     { name: "Movies", path: '/movies' },
                                     { name: "Previously Watched", path: '/watch-history' },
                                     { name: "TV Shows", path: '/tv-shows' },
-                                    { name: "Search", path: '/search' },
-                                    { name: "Games", path: '/games' }].map((item, index) => (
+                                    { name: "Watch List", path: '/watch-list' }].map((item, index) => (
                                         <Grid item xs={6} md={5} key={index}>
                                             <Typography
                                                 sx={{
