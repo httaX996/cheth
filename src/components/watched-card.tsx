@@ -185,7 +185,7 @@ const WatchedCard: React.FC<CarosuelCardProps> = ({ id, poster_path, title, firs
                                 lineHeight: 1.25,
                                 opacity: .9,
                                 width: 'fit-content',
-                            }}>Watch again <br /> on Ez Streaming
+                            }}>Watch again <br /> on CK CineMAX
                         </Typography>
                     </Box>
                 </Box>
