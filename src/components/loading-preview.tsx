@@ -40,7 +40,7 @@ const LoadingPreview: React.FC = () => {
                     marginTop: 15,
                     fontWeight: 450,
                     textTransform: 'uppercase',
-                }}>Loading your <span style={{ color: '#a2ff00' }}>experience</span></p>
+                }}>Loading... <span style={{ color: '#a2ff00' }}>CK CineMAX</span></p>
             </div>
         </>
     )
