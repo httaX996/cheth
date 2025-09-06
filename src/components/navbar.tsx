@@ -92,7 +92,7 @@ const Navbar: React.FC = (props: Props) => {
                 color: 'white'
             }}>
             <Typography variant="h6" sx={{ my: 2, color: 'white' }}>
-                <img style={{ width: 125 }} src="/logo.png" alt="Ez-Streaming-Logo" />
+                <img style={{ width: 140 }} src="/logo.png" alt="CK-CineMAX" />
             </Typography>
 
             <Divider />
