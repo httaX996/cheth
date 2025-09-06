@@ -33,39 +33,39 @@ interface Props { window?: () => Window; }
 // nav items
 const navItems: NavItemProps[] = [
     {
-        navItem: "Gallery",
+        navItem: "HOME",
         path: "/"
     },
     {
-        navItem: "Movies",
+        navItem: "SEARCH",
+        path: "/search"
+    },
+    {
+        navItem: "MOVIES",
         path: "/movies"
     },
     {
-        navItem: "TV Shows",
+        navItem: "TV SHOWS",
         path: "/tv-shows"
     },
     {
-        navItem: "Watch List",
+        navItem: "WATCH LIST",
         path: "/watch-list"
     },
-    {
-        navItem: "Games",
-        path: "/games"
-    },
+    //{
+    //    navItem: "Games",
+    //    path: "/games"
+    //},
     // {
     //     navItem: "Live TV",
     //     path: "/live-tv"
     // },
     {
-        navItem: "Search",
-        path: "/search"
-    },
-    {
-        navItem: "Previously Watched",
+        navItem: "PREVIOUSLY WATCHED",
         path: "/watch-history"
     },
     {
-        navItem: "Disclaimer",
+        navItem: "DISCLAIMER",
         path: "/disclaimer"
     }
 ]
