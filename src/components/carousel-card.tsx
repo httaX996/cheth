@@ -177,7 +177,7 @@ const CarosuelCard: React.FC<CarosuelCardProps> = ({ id, poster_path, title, fir
                                 fontFamily: 'Rubik',
                                 lineHeight: 1.25,
                                 opacity: .9
-                            }}>Stream now <br /> on CK CineMAX
+                            }}>Stream now <br /> on <span style={{ color: '#a2ff00' }}>CK CineMAX</span>
                         </Typography>
                     </Box>
                 </Box>
