@@ -194,7 +194,7 @@ const SearchCard: React.FC<SearchCardProps>
                                 lineHeight: 1.25,
                                 opacity: .9,
                                 width: 'fit-content',
-                            }}>Stream now <br /> on Ez Streaming
+                            }}>Stream now <br /> on <span style={{ color: '#a2ff00' }}>CK CineMAX</span>
                         </Typography>
                     </Box>
                 </Box>
