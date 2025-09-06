@@ -89,7 +89,7 @@ const FooterDisclaimer: React.FC = () => {
                                 © CK CineMAX {new Date().getFullYear()} <br style={{ marginBottom: 5 }} />
                                 All media content available through this application is sourced from publicly available internet streams. We do not own, host, or distribute any of the content. All content remains the property of their respective owners. <br /> 
                                 <br /> 
-                                Developer: Chethmina Kavishan
+                                Developer: <span style={{ color: '#a2ff00' }}>Chethmina Kavishan</span>
                             </Typography>
 
                             <Typography sx={{
