@@ -92,7 +92,7 @@ const Navbar: React.FC = (props: Props) => {
                 color: 'white'
             }}>
             <Typography variant="h6" sx={{ my: 2, color: 'white' }}>
-                <img style={{ width: 140 }} src="/logo.png" alt="CK-CineMAX" />
+                <img style={{ width: 125 }} src="/logo.png" alt="CK-CineMAX-Logo" />
             </Typography>
 
             <Divider />
@@ -156,7 +156,7 @@ const Navbar: React.FC = (props: Props) => {
                                 transform: 'translate(-50%, -50%)',
                                 top: '50%',
                                 left: '50%'
-                            }} src="/logo.png" alt="Ez-Streaming-Logo" />
+                            }} src="/logo.png" alt="CK-CineMAX-Logo" />
                         </Box>
                     </IconButton>
                     {/* base nav -logo */}
@@ -167,7 +167,7 @@ const Navbar: React.FC = (props: Props) => {
                     >
                         <img style={{ width: 110, cursor: 'pointer' }}
                             src="/logo.png"
-                            alt="Ez-Streaming-Logo"
+                            alt="CK-CineMAX-Logo"
                             onClick={() => { navigate('/') }} />
                     </Typography>
 
