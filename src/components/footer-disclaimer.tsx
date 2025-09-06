@@ -22,7 +22,7 @@ const FooterDisclaimer: React.FC = () => {
                         <Grid sm={12} md={4} lg={4}>
                             <img style={{
                                 width: 130
-                            }} src="/logo.png" alt="" />
+                            }} src="/logo.png" alt="CK-CineMAX-Logo" />
 
                             <Typography sx={{
                                 color: 'white',
