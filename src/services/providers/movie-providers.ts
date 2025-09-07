@@ -8,6 +8,9 @@ export const getAllMovieProviders = () => {
         [{
             displayName: "VimStar",
             providerName: "videsrc.cc",
+            note: {
+                note: 'Test / අ ස හව්',
+            },
             premium: true,
         },
         {
